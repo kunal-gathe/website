@@ -1,0 +1,195 @@
+/* work Section */
+ 
+body {
+  background-color: white;
+}
+.top-section {
+  background-color: rgb(234, 255, 208);
+  height: 53vh;
+}
+.work-heading {
+  display: inline-block;
+  margin: 4.31rem -5.87rem;
+  font-size: 7rem;
+  font-weight: 100;
+  font-family: "Sacramento", cursive;
+}
+.work-img {
+  height: 15.625rem;
+  float: left;
+  margin: 9.375rem 18.75rem;
+}
+.work-img1 {
+  height: 15.16rem;
+  float: right;
+  margin: 9.375rem 18.75rem;
+}
+.about-work {
+  width: 30%;
+  margin: auto;
+}
+.work-img2 {
+  text-align: center;
+  border-radius: 50%;
+  border: 0.0625rem solid gray;
+  margin: 4rem -2rem -2rem -4rem;
+  width: 9.375rem;
+  height: 9.375rem;
+}
+.work-para {
+  font-size: 1.25rem;
+}
+
+/* projects */
+
+.pr1 {
+  margin-top: 5rem;
+  height: 125vh;
+  color: white;
+  background-color: #fd841f;
+  padding: 0rem 0rem;
+}
+.content {
+  width: 50%;
+  margin: auto;
+}
+.pr1-img {
+  margin-top: 3.125rem;
+  width: 50%;
+  border: 1.875rem solid white;
+}
+.pr-heading {
+  font-size: 3rem;
+  margin: 0rem 0rem -1.25rem 0rem;
+}
+.pr-2 {
+  font-size: 1.4rem;
+  margin: 1.06rem 0rem -1.43rem 0rem;
+}
+.pr-para {
+  font-size: 1.2rem;
+  margin: 1.4375rem 0rem 0rem 0rem;
+}
+.pr1-btn {
+  margin-top: 1.8785rem;
+  padding: 1.25rem;
+  color: white;
+  font-size: 1rem;
+  border-radius: 0.625rem;
+  background-color: rgb(38, 32, 77);
+}
+.pr2 {
+  margin-top: 5rem;
+  height: 130vh;
+  color: white;
+  background-color: #e14d2a;
+}
+.pr3 {
+  margin-top: 5rem;
+  height: 125vh;
+  color: white;
+  background-color: #cd104d;
+}
+.pr4 {
+  margin-top: 5rem;
+  height: 130vh;
+  color: white;
+  background-color: #9c2c77;
+}
+
+
+
+@media (max-width: 1451px) {
+    body{
+        background-color:#EAFFD0;
+    }
+  html {
+    font-size: 100%;
+  }
+  .top-section {
+    height: 22vh;
+}
+
+
+  .work-img {
+    height: 9.16rem;
+    margin: 4.375rem 0.75rem;
+  }
+  .work-heading {
+    margin: 4.31rem -1.87rem;
+    font-size: 4rem;
+  }
+  .work-img1 {
+    height: 9.16rem;
+    margin: 4.375rem 0.75rem;
+  }
+  .work-img2 {
+    border-radius: 50%;
+    margin: 3rem 0rem -2rem 0rem;
+    width: 6.375rem;
+    height: 6.375rem;
+  }
+  .sm-heading {
+    color: #3fc1c9;
+    font-size: 1.2rem;
+    margin-bottom: -0.5rem;
+  }
+  .work-para {
+    font-size: 1rem;
+    width: 99%;
+}
+.pr-heading {
+    font-size: 2.2rem;
+    margin: 0rem 0rem -1.25rem 0rem;
+}
+.pr-2 {
+    font-size: 1rem;
+    margin: 0.06rem 0rem -1.43rem 0rem;
+}
+.pr-para {
+    font-size: 1rem;
+    margin: 2.4375rem -1rem 0rem -1rem;
+}
+.pr1 {
+    margin-top: 5rem;
+    height: 68vh;
+    padding: 0rem 0rem;
+}
+.pr2 {
+    margin-top: 5rem;
+    height: 72vh;
+    padding: 0rem 0rem;
+}
+.pr-para {
+    font-size: 1rem;
+    margin: 2.4375rem -2rem 0rem -2rem;
+}
+.pr3 {
+    margin-top: 5rem;
+    height: 66vh;
+}
+.pr-heading {
+    font-size: 1.8rem;
+    margin: 0rem 0rem -0.5rem 0rem;
+}
+.pr4 {
+    margin-top: 5rem;
+    height: 75vh;
+}
+.sm-heading {
+    font-size: 1.7rem;
+}
+.p-bottom {
+    width: 93%;
+    font-size: 1.2rem;
+}
+.footer-link {
+    padding: 0.875rem;
+    font-size: 1.1rem;
+    top: 1.875rem;
+}
+.about-work {
+    width: 70%;
+    margin: auto;
+}
+}
